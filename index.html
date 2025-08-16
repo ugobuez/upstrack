@@ -66,21 +66,23 @@
       const [showProof, setShowProof] = useState(false);
 
       const proofImageURL = "https://i.ibb.co/Z9cKBCp/Whats-App-Image-2025-08-07-at-10-40-53-AM.jpg";
-      const allowedProofLocation = "Huangpo Town, Wuchuan City, Zhanjiang City, Guangdong Province, detailed address: Bao Jinzhu (Huangpo Store), No. 88 Chengxi Road";
+      const allowedProofLocation = "Xiabanjia Village, Wenfeng Road Street, Laizhou City, Yantai City, Shandong Province ";
+      const senderProofLocation = "40-44 Floral Street Covent Garden London WC2E 9TB. London. WC2E 9TB. Westbourne House. 122 Kensington Park";
 
       const mockData = {
         UPS785193: {
-          senderName: "William James",
-          senderAddress: "No 54 Castle Street, Liverpool, UK",
-          senderNumber: "+447418369095",
-          receiverName: "Long Tianmei",
-          receiverAddress: "Huangpo Town, Wuchuan City, Zhanjiang City, Guangdong Province, detailed address: Bao Jinzhu (Huangpo Store), No. 88 Chengxi Road",
-          receiverNumber: "18211272136",
+          senderName: "Name Elian",
+          senderAddress: "40-44 Floral Street Covent Garden London WC2E 9TB. London. WC2E 9TB. Westbourne House. 122 Kensington Park",
+          senderNumber: " +4478904456732",
+          receiverName: "Ban Junming",
+          receiverAddress: "Xiabanjia Village, Wenfeng Road Street, Laizhou City, Yantai City, Shandong Province ",
+          receiverNumber: "17753554342",
           packageDetails: "Boxes",
           image: "https://i.ibb.co/Z9cKBCp/Whats-App-Image-2025-08-07-at-10-40-53-AM.jpg",
           status: 'Delivered',
           history: [
 
+            { date: '05/07/2025 2:32 P.M.', location: senderProofLocation, activity: 'Delivered', details: 'Proof of Delivery' },
             { date: '05/07/2025 2:32 P.M.', location: allowedProofLocation, activity: 'Delivered', details: 'Proof of Delivery' },
 
           ]
